@@ -3,4 +3,4 @@
 
 
 # DevLog
-1. 29/7/2020 - First commit - Basic Layout - API exploration 
+1. 29/7/2020 1:00 AM - First commit - Basic Layout - API exploration 
