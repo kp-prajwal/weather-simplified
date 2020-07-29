@@ -1,0 +1,23 @@
+*{
+  font-family:  'Trebuchet MS', sans-serif;
+}
+
+#background{
+  background: url(../img/warm.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 650px
+}
+#background .dark-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 650px;
+  background-color: rgba(190, 115, 197, 0.336);
+}
+
+.bg-light{
+  opacity: 95%;
+}
