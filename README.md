@@ -8,3 +8,4 @@
 
 # To be included
 1. UI customisation according to the weather.
+2. Choosing your own city
