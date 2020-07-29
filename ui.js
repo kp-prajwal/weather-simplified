@@ -49,5 +49,7 @@ class UI {
     this.sunrise.textContent = `Sunrise time : ${formattedTimeSunrise} hrs `
     this.sunset.textContent = `Sunset time : ${formattedTimeSunset} hrs`
 
+    
+
   }
 }
