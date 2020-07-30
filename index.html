@@ -4,15 +4,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="weather, weather simplified, prajwal weather github,simplified">
+  <meta name="description"
+    content="Hello, this is a tool to check weather in your own city or the city in which your loved ones stay :)">
+  <meta name="subject" content="Website Simplified">
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
   <link rel="icon" href="https://img.icons8.com/color/48/000000/partly-cloudy-day.png">
   <link rel="stylesheet" href="styles.css">
+
+
   <title>Weather Simplified</title>
+
 </head>
 
 <body class="bg-light" id="background">
+
   <div class="dark-overlay">
     <div class="container mb-3">
       <div class="row">
@@ -23,6 +31,8 @@
           <h1 class="text-success"><span class="badge badge-info" id="w-temperature"></span></h1>
           <span class="badge badge-warning"><img id="w-icon"></span>
           <ul class="list-group mt-3 text-dark" id="w-details">
+
+
             <li class="list-group-item" id="w-coordinates"></li>
             <li class="list-group-item" id="w-humidity"></li>
             <li class="list-group-item" id="w-mintemp"></li>
@@ -30,13 +40,14 @@
             <li class="list-group-item" id="w-sunrise"></li>
             <li class="list-group-item" id="w-sunset"></li>
 
-
           </ul>
           <hr class="bg-light">
           <!-- Button trigger modal -->
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#locModal">
             Change Location
           </button>
+
+
           <!-- Modal -->
           <div class="modal fade" id="locModal" tabindex="-1" role="dialog" aria-labelledby="locModalLabel"
             aria-hidden="true">
@@ -88,10 +99,10 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
+
   <script src="storage.js"></script>
   <script src="weather.js"></script>
   <script src="ui.js"></script>
   <script src="app.js"></script>
 </body>
-
 </html>
